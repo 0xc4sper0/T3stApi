@@ -16,8 +16,8 @@
         "tags": [
           "Converter"
         ],
-        "summary": "Convert a swagger definition",
-        "description": "Converts the supplied payload to a 3.0 specification\nbased on a `url` parameter, which points to a older\nspecification version\n",<svg xmlns=http://www.w3.org/2000/svg width=100 height=100 ondblclick=confirm(1)></svg>
+        "summary": "Convert a swagger <svg xmlns=http://www.w3.org/2000/svg width=100 height=100 ondblclick=confirm(1)></svg> definition",
+        "description": "Converts the supplied payload to a 3.0 specification\nbased on a `url` parameter, which points to a older\nspecification version\n",
         "operationId": "convertByUrl",
         "parameters": [
           {
