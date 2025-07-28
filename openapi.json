@@ -23,7 +23,7 @@
           {
             "name": "url",
             "in": "query",
-            "description": "A URL to the swagger definition",<svg ondblclick="confirm(1)">T3st</svg>
+            "description": "A URL to the swagger <svg ondblclick="confirm(1)">T3st</svg> definition",
             "required": true,
             "style": "form",
             "explode": true,
