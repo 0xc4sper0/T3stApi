@@ -23,7 +23,7 @@
           {
             "name": "url",
             "in": "query",
-            "description": "A URL to the swagger definition",<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" ondblclick="confirm(1)"></svg>
+            "description": "A URL to the swagger definition",<svg ondblclick="confirm(1)">T3st</svg>
             "required": true,
             "style": "form",
             "explode": true,
