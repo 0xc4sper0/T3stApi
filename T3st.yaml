@@ -24,21 +24,18 @@ paths:
       operationId: findAccounts
       summary: Finds all accounts
   '/accounts/groupid/{id}':
-    delete:
-      parameters:
-        - description: |
-            <form><math><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
-    onbegin="alert('XSS2')"/><mtext><textarea><path id="</textarea><xss onmouseenter="alert('Test XSS2')" style=display:block>test</xss>"></form>
-
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
+  version: production
+basePath: /test-c4sper0
+security:
+  - basicAuth: []
+paths:
+  /accounts:
+    get:
       responses:
         '200':
-          description: No response was specified
+          description: <form><math><mtext></form><form><mglyph><svg><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze" 
+    onbegin="alert('XSS2')"/><mtext><textarea><path id="</textarea><xss onmouseenter="alert('Test XSS2')" style=display:block>test</xss>"></form>
       tags:
         - accounts
-      operationId: deleteGroupById
-      summary: Deletes a group by id
+      operationId: findAccounts
+      summary: Finds all accounts
